@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAE81C522C1093CE00C00D46 /* EfficioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C512C1093CE00C00D46 /* EfficioApp.swift */; };
+		BAE81C562C1093D000C00D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE81C552C1093D000C00D46 /* Assets.xcassets */; };
+		BAE81C592C1093D000C00D46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE81C582C1093D000C00D46 /* Preview Assets.xcassets */; };
+		BAE81C632C1093D000C00D46 /* EfficioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C622C1093D000C00D46 /* EfficioTests.swift */; };
+		BAE81C6D2C1093D000C00D46 /* EfficioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C6C2C1093D000C00D46 /* EfficioUITests.swift */; };
+		BAE81C6F2C1093D000C00D46 /* EfficioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C6E2C1093D000C00D46 /* EfficioUITestsLaunchTests.swift */; };
+		BAE81C7E2C1099BA00C00D46 /* GettingStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C7D2C1099BA00C00D46 /* GettingStartedView.swift */; };
+		BAE81C802C109B3100C00D46 /* PreferredNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C7F2C109B3100C00D46 /* PreferredNameView.swift */; };
+		BAE81C822C109BD900C00D46 /* YearGroupSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C812C109BD900C00D46 /* YearGroupSelectionView.swift */; };
+		BAE81C842C109FC600C00D46 /* SubjectSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C832C109FC600C00D46 /* SubjectSelectionView.swift */; };
+		BAE81C862C10A12900C00D46 /* AddOtherSubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C852C10A12900C00D46 /* AddOtherSubjectView.swift */; };
+		BAE81C882C10A13300C00D46 /* GoalSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C872C10A13300C00D46 /* GoalSelectionView.swift */; };
+		BAE81C8A2C10A29E00C00D46 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C892C10A29E00C00D46 /* LoginView.swift */; };
+		BAE81C8C2C10A2BA00C00D46 /* DailyGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C8B2C10A2BA00C00D46 /* DailyGoal.swift */; };
+		BAE81C8E2C10A2CA00C00D46 /* CreateanAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C8D2C10A2CA00C00D46 /* CreateanAccountView.swift */; };
+		BAE81C902C10A55000C00D46 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C8F2C10A55000C00D46 /* SplashScreenView.swift */; };
+		BAE81C922C10FB2100C00D46 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C912C10FB2100C00D46 /* HomeView.swift */; };
+		BAE81C962C10FB4A00C00D46 /* MyCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C952C10FB4A00C00D46 /* MyCalendarView.swift */; };
+		BAE81C982C10FB5B00C00D46 /* ProductivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C972C10FB5B00C00D46 /* ProductivityView.swift */; };
+		BAE81C9A2C10FB6800C00D46 /* BuddiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C992C10FB6800C00D46 /* BuddiesView.swift */; };
+		BAE81C9C2C10FED800C00D46 /* NavBarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C9B2C10FED800C00D46 /* NavBarsView.swift */; };
+		BAE81C9E2C11A60000C00D46 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C9D2C11A60000C00D46 /* ToDoListView.swift */; };
+		BAE81CA02C1477E700C00D46 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE81C9F2C1477E700C00D46 /* WelcomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAE81C5F2C1093D000C00D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE81C462C1093CE00C00D46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE81C4D2C1093CE00C00D46;
+			remoteInfo = Efficio;
+		};
+		BAE81C692C1093D000C00D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE81C462C1093CE00C00D46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE81C4D2C1093CE00C00D46;
+			remoteInfo = Efficio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAE81C4E2C1093CE00C00D46 /* Efficio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Efficio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE81C512C1093CE00C00D46 /* EfficioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfficioApp.swift; sourceTree = "<group>"; };
+		BAE81C552C1093D000C00D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAE81C582C1093D000C00D46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAE81C5E2C1093D000C00D46 /* EfficioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EfficioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE81C622C1093D000C00D46 /* EfficioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfficioTests.swift; sourceTree = "<group>"; };
+		BAE81C682C1093D000C00D46 /* EfficioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EfficioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE81C6C2C1093D000C00D46 /* EfficioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfficioUITests.swift; sourceTree = "<group>"; };
+		BAE81C6E2C1093D000C00D46 /* EfficioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfficioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAE81C7D2C1099BA00C00D46 /* GettingStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartedView.swift; sourceTree = "<group>"; };
+		BAE81C7F2C109B3100C00D46 /* PreferredNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferredNameView.swift; sourceTree = "<group>"; };
+		BAE81C812C109BD900C00D46 /* YearGroupSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearGroupSelectionView.swift; sourceTree = "<group>"; };
+		BAE81C832C109FC600C00D46 /* SubjectSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectSelectionView.swift; sourceTree = "<group>"; };
+		BAE81C852C10A12900C00D46 /* AddOtherSubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOtherSubjectView.swift; sourceTree = "<group>"; };
+		BAE81C872C10A13300C00D46 /* GoalSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalSelectionView.swift; sourceTree = "<group>"; };
+		BAE81C892C10A29E00C00D46 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BAE81C8B2C10A2BA00C00D46 /* DailyGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyGoal.swift; sourceTree = "<group>"; };
+		BAE81C8D2C10A2CA00C00D46 /* CreateanAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateanAccountView.swift; sourceTree = "<group>"; };
+		BAE81C8F2C10A55000C00D46 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		BAE81C912C10FB2100C00D46 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BAE81C952C10FB4A00C00D46 /* MyCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCalendarView.swift; sourceTree = "<group>"; };
+		BAE81C972C10FB5B00C00D46 /* ProductivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityView.swift; sourceTree = "<group>"; };
+		BAE81C992C10FB6800C00D46 /* BuddiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddiesView.swift; sourceTree = "<group>"; };
+		BAE81C9B2C10FED800C00D46 /* NavBarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarsView.swift; sourceTree = "<group>"; };
+		BAE81C9D2C11A60000C00D46 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		BAE81C9F2C1477E700C00D46 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAE81C4B2C1093CE00C00D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE81C5B2C1093D000C00D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE81C652C1093D000C00D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAE81C452C1093CE00C00D46 = {
+			isa = PBXGroup;
+			children = (
+				BAE81C502C1093CE00C00D46 /* Efficio */,
+				BAE81C612C1093D000C00D46 /* EfficioTests */,
+				BAE81C6B2C1093D000C00D46 /* EfficioUITests */,
+				BAE81C4F2C1093CE00C00D46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAE81C4F2C1093CE00C00D46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE81C4E2C1093CE00C00D46 /* Efficio.app */,
+				BAE81C5E2C1093D000C00D46 /* EfficioTests.xctest */,
+				BAE81C682C1093D000C00D46 /* EfficioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAE81C502C1093CE00C00D46 /* Efficio */ = {
+			isa = PBXGroup;
+			children = (
+				BAE81C512C1093CE00C00D46 /* EfficioApp.swift */,
+				BAE81C552C1093D000C00D46 /* Assets.xcassets */,
+				BAE81C8F2C10A55000C00D46 /* SplashScreenView.swift */,
+				BAE81C7D2C1099BA00C00D46 /* GettingStartedView.swift */,
+				BAE81C7F2C109B3100C00D46 /* PreferredNameView.swift */,
+				BAE81C812C109BD900C00D46 /* YearGroupSelectionView.swift */,
+				BAE81C832C109FC600C00D46 /* SubjectSelectionView.swift */,
+				BAE81C852C10A12900C00D46 /* AddOtherSubjectView.swift */,
+				BAE81C872C10A13300C00D46 /* GoalSelectionView.swift */,
+				BAE81C8B2C10A2BA00C00D46 /* DailyGoal.swift */,
+				BAE81C8D2C10A2CA00C00D46 /* CreateanAccountView.swift */,
+				BAE81C892C10A29E00C00D46 /* LoginView.swift */,
+				BAE81C9B2C10FED800C00D46 /* NavBarsView.swift */,
+				BAE81C9D2C11A60000C00D46 /* ToDoListView.swift */,
+				BAE81C912C10FB2100C00D46 /* HomeView.swift */,
+				BAE81C952C10FB4A00C00D46 /* MyCalendarView.swift */,
+				BAE81C972C10FB5B00C00D46 /* ProductivityView.swift */,
+				BAE81C992C10FB6800C00D46 /* BuddiesView.swift */,
+				BAE81C9F2C1477E700C00D46 /* WelcomeView.swift */,
+				BAE81C572C1093D000C00D46 /* Preview Content */,
+			);
+			path = Efficio;
+			sourceTree = "<group>";
+		};
+		BAE81C572C1093D000C00D46 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BAE81C582C1093D000C00D46 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BAE81C612C1093D000C00D46 /* EfficioTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE81C622C1093D000C00D46 /* EfficioTests.swift */,
+			);
+			path = EfficioTests;
+			sourceTree = "<group>";
+		};
+		BAE81C6B2C1093D000C00D46 /* EfficioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE81C6C2C1093D000C00D46 /* EfficioUITests.swift */,
+				BAE81C6E2C1093D000C00D46 /* EfficioUITestsLaunchTests.swift */,
+			);
+			path = EfficioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAE81C4D2C1093CE00C00D46 /* Efficio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE81C722C1093D000C00D46 /* Build configuration list for PBXNativeTarget "Efficio" */;
+			buildPhases = (
+				BAE81C4A2C1093CE00C00D46 /* Sources */,
+				BAE81C4B2C1093CE00C00D46 /* Frameworks */,
+				BAE81C4C2C1093CE00C00D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Efficio;
+			productName = Efficio;
+			productReference = BAE81C4E2C1093CE00C00D46 /* Efficio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAE81C5D2C1093D000C00D46 /* EfficioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE81C752C1093D000C00D46 /* Build configuration list for PBXNativeTarget "EfficioTests" */;
+			buildPhases = (
+				BAE81C5A2C1093D000C00D46 /* Sources */,
+				BAE81C5B2C1093D000C00D46 /* Frameworks */,
+				BAE81C5C2C1093D000C00D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE81C602C1093D000C00D46 /* PBXTargetDependency */,
+			);
+			name = EfficioTests;
+			productName = EfficioTests;
+			productReference = BAE81C5E2C1093D000C00D46 /* EfficioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAE81C672C1093D000C00D46 /* EfficioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE81C782C1093D000C00D46 /* Build configuration list for PBXNativeTarget "EfficioUITests" */;
+			buildPhases = (
+				BAE81C642C1093D000C00D46 /* Sources */,
+				BAE81C652C1093D000C00D46 /* Frameworks */,
+				BAE81C662C1093D000C00D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE81C6A2C1093D000C00D46 /* PBXTargetDependency */,
+			);
+			name = EfficioUITests;
+			productName = EfficioUITests;
+			productReference = BAE81C682C1093D000C00D46 /* EfficioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAE81C462C1093CE00C00D46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BAE81C4D2C1093CE00C00D46 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BAE81C5D2C1093D000C00D46 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BAE81C4D2C1093CE00C00D46;
+					};
+					BAE81C672C1093D000C00D46 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BAE81C4D2C1093CE00C00D46;
+					};
+				};
+			};
+			buildConfigurationList = BAE81C492C1093CE00C00D46 /* Build configuration list for PBXProject "Efficio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAE81C452C1093CE00C00D46;
+			productRefGroup = BAE81C4F2C1093CE00C00D46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE81C4D2C1093CE00C00D46 /* Efficio */,
+				BAE81C5D2C1093D000C00D46 /* EfficioTests */,
+				BAE81C672C1093D000C00D46 /* EfficioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAE81C4C2C1093CE00C00D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE81C592C1093D000C00D46 /* Preview Assets.xcassets in Resources */,
+				BAE81C562C1093D000C00D46 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE81C5C2C1093D000C00D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE81C662C1093D000C00D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAE81C4A2C1093CE00C00D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE81C9E2C11A60000C00D46 /* ToDoListView.swift in Sources */,
+				BAE81C842C109FC600C00D46 /* SubjectSelectionView.swift in Sources */,
+				BAE81C8E2C10A2CA00C00D46 /* CreateanAccountView.swift in Sources */,
+				BAE81C802C109B3100C00D46 /* PreferredNameView.swift in Sources */,
+				BAE81C7E2C1099BA00C00D46 /* GettingStartedView.swift in Sources */,
+				BAE81C902C10A55000C00D46 /* SplashScreenView.swift in Sources */,
+				BAE81C822C109BD900C00D46 /* YearGroupSelectionView.swift in Sources */,
+				BAE81C8C2C10A2BA00C00D46 /* DailyGoal.swift in Sources */,
+				BAE81C9A2C10FB6800C00D46 /* BuddiesView.swift in Sources */,
+				BAE81C882C10A13300C00D46 /* GoalSelectionView.swift in Sources */,
+				BAE81C9C2C10FED800C00D46 /* NavBarsView.swift in Sources */,
+				BAE81C982C10FB5B00C00D46 /* ProductivityView.swift in Sources */,
+				BAE81C862C10A12900C00D46 /* AddOtherSubjectView.swift in Sources */,
+				BAE81CA02C1477E700C00D46 /* WelcomeView.swift in Sources */,
+				BAE81C922C10FB2100C00D46 /* HomeView.swift in Sources */,
+				BAE81C8A2C10A29E00C00D46 /* LoginView.swift in Sources */,
+				BAE81C962C10FB4A00C00D46 /* MyCalendarView.swift in Sources */,
+				BAE81C522C1093CE00C00D46 /* EfficioApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE81C5A2C1093D000C00D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE81C632C1093D000C00D46 /* EfficioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE81C642C1093D000C00D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE81C6F2C1093D000C00D46 /* EfficioUITestsLaunchTests.swift in Sources */,
+				BAE81C6D2C1093D000C00D46 /* EfficioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAE81C602C1093D000C00D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE81C4D2C1093CE00C00D46 /* Efficio */;
+			targetProxy = BAE81C5F2C1093D000C00D46 /* PBXContainerItemProxy */;
+		};
+		BAE81C6A2C1093D000C00D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE81C4D2C1093CE00C00D46 /* Efficio */;
+			targetProxy = BAE81C692C1093D000C00D46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BAE81C702C1093D000C00D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAE81C712C1093D000C00D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAE81C732C1093D000C00D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Efficio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KJ-Studios.Efficio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAE81C742C1093D000C00D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Efficio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KJ-Studios.Efficio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAE81C762C1093D000C00D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KJ-Studios.EfficioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Efficio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Efficio";
+			};
+			name = Debug;
+		};
+		BAE81C772C1093D000C00D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KJ-Studios.EfficioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Efficio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Efficio";
+			};
+			name = Release;
+		};
+		BAE81C792C1093D000C00D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KJ-Studios.EfficioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Efficio;
+			};
+			name = Debug;
+		};
+		BAE81C7A2C1093D000C00D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KJ-Studios.EfficioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Efficio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE81C492C1093CE00C00D46 /* Build configuration list for PBXProject "Efficio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE81C702C1093D000C00D46 /* Debug */,
+				BAE81C712C1093D000C00D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE81C722C1093D000C00D46 /* Build configuration list for PBXNativeTarget "Efficio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE81C732C1093D000C00D46 /* Debug */,
+				BAE81C742C1093D000C00D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE81C752C1093D000C00D46 /* Build configuration list for PBXNativeTarget "EfficioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE81C762C1093D000C00D46 /* Debug */,
+				BAE81C772C1093D000C00D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE81C782C1093D000C00D46 /* Build configuration list for PBXNativeTarget "EfficioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE81C792C1093D000C00D46 /* Debug */,
+				BAE81C7A2C1093D000C00D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAE81C462C1093CE00C00D46 /* Project object */;
+}
